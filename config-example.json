@@ -1,7 +1,6 @@
 {
     "tel": "+XXXXXXXXXX",
     "logseq_root": "/home/user/logseq",
-    "xdg_data_home": "", // will only be used if environ "XDG_DATA_HOME" is not set
     "page_template": "%Y-%m-%d___signal.md",
     "tag_template": "[[%Y-%m-%d]]",
 }
