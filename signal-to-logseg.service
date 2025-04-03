@@ -1,0 +1,11 @@
+[Unit]
+Description=Calls signal to logseq pipeline ever 15 mins
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=900s
+ExecStart=PATH/TO/signal-to-logseg/run-pipeline.sh
